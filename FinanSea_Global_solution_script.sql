@@ -1226,25 +1226,22 @@ END;
 SELECT * FROM CUPOM;
 
 --- DOADOR__CUPOM
--- VAMOS INSERIR NOVAMENTE O DOADOR E O CUPOM EXCLUIDOS PARA GARANTIR A INTEGRIDADE DA CHAVE ESTRANGEIRA
+-- VAMOS INSERIR NOVAMENTE O CUPOM EXCLUIDO PARA GARANTIR A INTEGRIDADE DA CHAVE ESTRANGEIRA
 BEGIN
-   ONG_MANAGEMENT.inserir_doador(6, 'João Silva', 'joao@example.com', 'senha123', '11977699648', 'SP', 'São Paulo', 1234, 119569, 08312, 'P');
-   ONG_MANAGEMENT.inserir_doador(7, 'Marcel', 'marcel@example.com', 'senha123', '11977699644', 'SP', 'São Paulo', 1234, 119569, 01111, 'P');
    ONG_MANAGEMENT.inserir_cupom('C6', 'COD123', 50, 6);
-   ONG_MANAGEMENT.inserir_cupom('C7', 'COD124', 100, 1);
    ONG_MANAGEMENT.inserir_doador_cupom(6, 'C6');
 END;
 /
 SELECT * FROM DOADOR_CUPOM;
 
 BEGIN
-   ONG_MANAGEMENT.atualizar_doador_cupom(6, 'C6', 7, 'C7');
+   ONG_MANAGEMENT.atualizar_doador_cupom(6, 'C6', 6, 'C5');
 END;
 /
 SELECT * FROM DOADOR_CUPOM;
 
 BEGIN
-   ONG_MANAGEMENT.excluir_doador_cupom(7, 'C7');
+   ONG_MANAGEMENT.excluir_doador_cupom(6, 'C5');
 END;
 /
 SELECT * FROM DOADOR_CUPOM;
