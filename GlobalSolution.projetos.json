@@ -1,0 +1,100 @@
+[{
+  "_id": {
+    "$oid": "6662997f090163b589cdcdfb"
+  },
+  "id_projeto": "P006",
+  "nome": "Projeto Limpeza Costeira",
+  "descricao": "Iniciativa para a limpeza de praias e áreas costeiras.",
+  "foto": null,
+  "endereco": {
+    "rua": "Praia de Copacabana",
+    "numero": "100",
+    "cidade": "Rio de Janeiro",
+    "estado": "RJ"
+  },
+  "meta": 50000,
+  "status": "A",
+  "comprovante": null,
+  "acumulado": 20000,
+  "fk_Ong_cnpj": "11111111000199"
+},
+{
+  "_id": {
+    "$oid": "6662997f090163b589cdcdfc"
+  },
+  "id_projeto": "P007",
+  "nome": "Projeto Proteção dos Corais",
+  "descricao": "Conservação dos recifes de corais na Bahia.",
+  "foto": null,
+  "endereco": {
+    "rua": "Praia do Forte",
+    "numero": "200",
+    "cidade": "Salvador",
+    "estado": "BA"
+  },
+  "meta": 80000,
+  "status": "A",
+  "comprovante": null,
+  "acumulado": 30000,
+  "fk_Ong_cnpj": "22222222000199"
+},
+{
+  "_id": {
+    "$oid": "6662997f090163b589cdcdfd"
+  },
+  "id_projeto": "P008",
+  "nome": "Projeto Vida Marinha",
+  "descricao": "Proteção das espécies marinhas ameaçadas.",
+  "foto": null,
+  "endereco": {
+    "rua": "Avenida Beira Mar",
+    "numero": "300",
+    "cidade": "Fortaleza",
+    "estado": "CE"
+  },
+  "meta": 100000,
+  "status": "A",
+  "comprovante": null,
+  "acumulado": 50000,
+  "fk_Ong_cnpj": "33333333000199"
+},
+{
+  "_id": {
+    "$oid": "6662997f090163b589cdcdfe"
+  },
+  "id_projeto": "P009",
+  "nome": "Projeto Monitoramento Oceânico",
+  "descricao": "Monitoramento da qualidade da água do mar.",
+  "foto": null,
+  "endereco": {
+    "rua": "Avenida das Rendeiras",
+    "numero": "400",
+    "cidade": "Florianópolis",
+    "estado": "SC"
+  },
+  "meta": 60000,
+  "status": "A",
+  "comprovante": null,
+  "acumulado": 25000,
+  "fk_Ong_cnpj": "44444444000199"
+},
+{
+  "_id": {
+    "$oid": "6662997f090163b589cdcdff"
+  },
+  "id_projeto": "P010",
+  "nome": "Projeto Educação Ambiental",
+  "descricao": "Programas educativos sobre a importância da preservação dos oceanos.",
+  "foto": null,
+  "endereco": {
+    "rua": "Praia de Boa Viagem",
+    "numero": "500",
+    "cidade": "Recife",
+    "estado": "PE"
+  },
+  "meta": 70000,
+  "status": "A",
+  "comprovante": null,
+  "acumulado": 35000,
+  "fk_Ong_cnpj": "55555555000199"
+}]

@@ -1,0 +1,100 @@
+[{
+  "_id": {
+    "$oid": "66629932090163b589cdcdf6"
+  },
+  "cnpj": "11111111000199",
+  "nome": "ONG Oceano Azul",
+  "email": "contato@oceanoazul.org",
+  "senha": "senha123",
+  "endereco": {
+    "rua": "Rua das Marés",
+    "cidade": "Rio de Janeiro",
+    "estado": "RJ"
+  },
+  "telefone": "21987654321",
+  "cod_banco": 1234,
+  "agencia": 123456,
+  "conta": {
+    "$numberLong": "111122223333"
+  }
+},
+{
+  "_id": {
+    "$oid": "66629932090163b589cdcdf7"
+  },
+  "cnpj": "22222222000199",
+  "nome": "ONG Protetores do Mar",
+  "email": "contato@protetoresdomar.org",
+  "senha": "senha456",
+  "endereco": {
+    "rua": "Avenida Atlântica",
+    "cidade": "Salvador",
+    "estado": "BA"
+  },
+  "telefone": "71987654321",
+  "cod_banco": 5678,
+  "agencia": 654321,
+  "conta": {
+    "$numberLong": "444455556666"
+  }
+},
+{
+  "_id": {
+    "$oid": "66629932090163b589cdcdf8"
+  },
+  "cnpj": "33333333000199",
+  "nome": "ONG Guardiões dos Oceanos",
+  "email": "contato@guardioesdosoceanos.org",
+  "senha": "senha789",
+  "endereco": {
+    "rua": "Rua das Ondas",
+    "cidade": "Fortaleza",
+    "estado": "CE"
+  },
+  "telefone": "85987654321",
+  "cod_banco": 9101,
+  "agencia": 789012,
+  "conta": {
+    "$numberLong": "777788889999"
+  }
+},
+{
+  "_id": {
+    "$oid": "66629932090163b589cdcdf9"
+  },
+  "cnpj": "44444444000199",
+  "nome": "ONG Vida Marinha",
+  "email": "contato@vidamarinha.org",
+  "senha": "senha012",
+  "endereco": {
+    "rua": "Avenida Oceânica",
+    "cidade": "Florianópolis",
+    "estado": "SC"
+  },
+  "telefone": "48987654321",
+  "cod_banco": 3456,
+  "agencia": 345678,
+  "conta": {
+    "$numberLong": "101112131415"
+  }
+},
+{
+  "_id": {
+    "$oid": "66629932090163b589cdcdfa"
+  },
+  "cnpj": "55555555000199",
+  "nome": "ONG Salvando os Mares",
+  "email": "contato@salvandoosmares.org",
+  "senha": "senha345",
+  "endereco": {
+    "rua": "Rua dos Corais",
+    "cidade": "Recife",
+    "estado": "PE"
+  },
+  "telefone": "81987654321",
+  "cod_banco": 7890,
+  "agencia": 123987,
+  "conta": {
+    "$numberLong": "161718192021"
+  }
+}]
